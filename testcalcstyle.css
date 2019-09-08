@@ -1,0 +1,112 @@
+﻿body {
+}
+
+.grid {
+    border: 4px dashed black;
+    height: 1500px;
+    width: 1140px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: min-content;
+    grid-auto-rows: max-content;
+    padding: 5px 10px 5px 10px;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column: 1 / span 4;
+    background-color: aquamarine;
+    display: inline-flex;
+    margin: auto;
+    
+}
+
+#yarn {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    font-family: Pristina;
+    font-size: 58px;
+    color: #333333;
+    text-align: center;
+ 
+}
+
+h2 {
+    text-align: center;
+    font-family: Papyrus;
+}
+
+h3 {
+    text-align: center;
+    font-family: Pristina;
+}
+
+p {
+    font-family: Calibri;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: inline;
+    font-family: Calibri;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.item2 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column: 1 / span 4;
+    background-color: darkseagreen;
+}
+
+.item3 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column: 1 / span 4;
+    background-color: aliceblue;
+}
+
+.item4 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column: 1 / span 4;
+    background-color: rosybrown;
+}
+
+.item5 {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column: 1 / span 2;
+    background-color: mistyrose;
+}
+
+.item6 {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column: 3 / span 2;
+    background-color: pink;
+}
+
+.item7 {
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column: 1 / span 4;
+    background-color: lightgoldenrodyellow;
+}
+
+.item8 {
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-column: 1 / span 4;
+}
